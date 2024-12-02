@@ -3,6 +3,11 @@
     "name": "Youtube Chrome Extension",
     "version": "0.1",
     "description": "An extension which automatically sets playback speed of youtube videos. Music will play at a separate speed to other videos.",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
     "content_scripts": [
         {
             "matches": ["https://www.youtube.com/*"],
