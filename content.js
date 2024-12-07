@@ -18,7 +18,7 @@ function setPlaybackSpeed(musicSpeed = 1, nonMusicSpeed = 2) {
         }
 
         // Keywords for identifying music-related videos
-        let keywords = ["music", "lyric", "nightcore", "mashup", "feat", "official video", "audio", "lyrics", "song", "ost", "soundtrack", "mixtape", "mix"];
+        let keywords = ["music", "lyric", "nightcore", "mashup", "feat", "official video", "audio", "lyrics", "song", "ost", "soundtrack", "mixtape", "mix", "theme"];
         
         // Check if title contains any keyword
         let isMusicVideo = keywords.some(keyword => lowerTitle.includes(keyword));
